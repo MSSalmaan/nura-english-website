@@ -211,6 +211,7 @@
       <a href="#location"     class="nav-link text-sm font-medium" data-i18n="nav-location">Location</a>
     </nav>
     <button id="lang-btn" onclick="toggleLang()" class="lang-toggle hidden md:inline-flex">العربية</button>
+    <a href="#test" class="hidden md:inline-flex btn-outline text-sm font-semibold px-5 py-2.5 rounded-full" data-i18n="nav-test">Free English Test</a>
     <a href="#enroll" class="hidden md:inline-flex btn-solid text-sm font-semibold px-5 py-2.5 rounded-full" data-i18n="nav-enroll">Enroll Now</a>
     <button id="ham-btn" onclick="document.getElementById('mob-menu').classList.toggle('open')" class="md:hidden p-2 rounded-xl transition-colors hover:bg-purple-50 focus-visible:outline-none" style="color:#555;" aria-label="Menu">
       <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
@@ -222,6 +223,7 @@
     <a href="#how-it-works" class="text-gray-700 font-medium py-2 text-sm" data-i18n="nav-how">How It Works</a>
     <a href="#stories"      class="text-gray-700 font-medium py-2 text-sm" data-i18n="nav-stories">Stories</a>
     <a href="#location"     class="text-gray-700 font-medium py-2 text-sm" data-i18n="nav-location">Location</a>
+    <a href="#test" class="btn-outline mt-1 text-center text-sm font-semibold px-5 py-3 rounded-full" data-i18n="nav-test">Free English Test</a>
     <a href="#enroll" class="btn-solid mt-2 text-center text-sm font-semibold px-5 py-3 rounded-full" data-i18n="nav-enroll">Enroll Now</a>
     <button onclick="toggleLang()" id="mob-lang-btn" class="lang-toggle mt-1 self-start">العربية</button>
   </div>
@@ -732,6 +734,44 @@
   </div>
 </section>
 
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━ FREE TEST ━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<section id="test" class="py-24 bg-white">
+  <div class="max-w-3xl mx-auto px-6">
+    <div class="text-center mb-12">
+      <div class="stag mb-5">
+        <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l2.09 6.26L21 9.27l-5 4.73 1.18 6.9L12 17.77l-6.18 3.13L7 13.9 2 9.27l6.91-1.01z"/></svg>
+        <span data-i18n="test-tag">100% Free</span>
+      </div>
+      <h2 class="font-display text-4xl md:text-5xl text-gray-900 mb-4" style="letter-spacing:-0.03em;" data-i18n-html="test-h2">Test your <span style="color:#8240e4;">English level.</span></h2>
+      <p class="text-gray-500 text-lg max-w-lg mx-auto mb-10" style="line-height:1.75;" data-i18n="test-p">Not sure where to start? Take our free 5-minute English test and we'll tell you exactly which program fits you best.</p>
+      <a href="https://tally.so/r/mKNgKX" target="_blank" rel="noopener"
+         class="btn-solid inline-flex items-center gap-3 px-10 py-4 rounded-full text-base font-semibold"
+         style="animation: pulse-ring 2.2s ease-in-out infinite;">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>
+        <span data-i18n="test-btn">Start Free Test</span>
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+      </a>
+      <p class="text-gray-400 text-sm mt-5" data-i18n="test-note">Takes 5 minutes · No signup required · Instant result</p>
+    </div>
+
+    <!-- Feature chips -->
+    <div class="flex flex-wrap justify-center gap-3">
+      <div class="flex items-center gap-2 px-4 py-2 rounded-full bg-purple-50 text-purple-700 text-sm font-medium">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        <span data-i18n="test-chip1">5 minutes</span>
+      </div>
+      <div class="flex items-center gap-2 px-4 py-2 rounded-full bg-purple-50 text-purple-700 text-sm font-medium">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        <span data-i18n="test-chip2">Instant result</span>
+      </div>
+      <div class="flex items-center gap-2 px-4 py-2 rounded-full bg-purple-50 text-purple-700 text-sm font-medium">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+        <span data-i18n="test-chip3">No signup needed</span>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━ ENROLL CTA ━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
 <section id="enroll" class="py-24 relative overflow-hidden grain" style="background:linear-gradient(140deg,#8240e4 0%,#5a1fc4 100%);">
   <div class="orb w-80 h-80 opacity-20" style="background:white;top:-60px;left:-60px;"></div>
@@ -744,7 +784,7 @@
     <p class="text-purple-200 text-lg mb-2 max-w-lg mx-auto" style="line-height:1.75;" data-i18n="cta-p">Book your free assessment today. Limited spots available for the upcoming intake.</p>
     <p class="rtl text-purple-300 text-sm mb-10" data-lang-show="en">احجزي تقييمك المجاني — أماكن محدودة</p>
     <div class="flex flex-col sm:flex-row gap-4 justify-center">
-      <a href="https://wa.me/966500000000" target="_blank" rel="noopener"
+      <a href="https://wa.me/966551259835" target="_blank" rel="noopener"
          class="flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-white font-semibold text-base transition-all duration-200"
          style="color:#8240e4;"
          onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 10px 32px rgba(0,0,0,0.18)';"
@@ -752,7 +792,7 @@
         <svg class="w-5 h-5" fill="#25D366" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
         <span data-i18n="cta-wa">WhatsApp Us</span>
       </a>
-      <a href="tel:+966500000000" class="btn-ghost-white flex items-center justify-center gap-3 px-8 py-4 rounded-full font-semibold text-base">
+      <a href="tel:+966551259835" class="btn-ghost-white flex items-center justify-center gap-3 px-8 py-4 rounded-full font-semibold text-base">
         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 7V5z"/></svg>
         <span data-i18n="cta-call">Call Us</span>
       </a>
@@ -780,7 +820,7 @@
             </div>
             <div>
               <p class="font-semibold text-gray-900 text-sm mb-1" data-i18n="loc-addr-label">Address</p>
-              <p class="text-gray-500 text-sm" data-i18n-html="loc-addr">Olaya District, Riyadh<br>Kingdom of Saudi Arabia</p>
+              <p class="text-gray-500 text-sm" data-i18n-html="loc-addr">Almazro's Tower, Street 14<br>6549 Wadi Al Shouara, Al Olaya, 5th Floor<br>Riyadh 12211, Saudi Arabia</p>
             </div>
           </div>
           <div class="flex items-start gap-4">
@@ -789,7 +829,7 @@
             </div>
             <div>
               <p class="font-semibold text-gray-900 text-sm mb-1" data-i18n="loc-hours-label">Class Hours</p>
-              <p class="text-gray-500 text-sm" data-i18n-html="loc-hours">Morning: 9:00 AM – 12:00 PM<br>Evening: 5:00 PM – 8:00 PM<br>Saturday classes available</p>
+              <p class="text-gray-500 text-sm" data-i18n-html="loc-hours">Morning: 10:00 AM – 12:00 PM<br>Evening: 4:00 PM – 9:00 PM</p>
             </div>
           </div>
           <div class="flex items-start gap-4">
@@ -798,7 +838,7 @@
             </div>
             <div>
               <p class="font-semibold text-gray-900 text-sm mb-1" data-i18n="loc-contact-label">Contact</p>
-              <p class="text-gray-500 text-sm" data-i18n-html="loc-contact">WhatsApp: +966 50 000 0000<br>Email: hello@nuraenglish.sa</p>
+              <p class="text-gray-500 text-sm" data-i18n-html="loc-contact">WhatsApp: +966 55 125 9835<br>Email: nuraenglish@pw.live</p>
             </div>
           </div>
         </div>
@@ -849,18 +889,18 @@
         <p class="text-white text-sm font-semibold mb-4" data-i18n="footer-contact-heading">Contact</p>
         <ul class="space-y-2.5">
           <li class="text-gray-400 text-sm">Olaya, Riyadh, KSA</li>
-          <li><a href="https://wa.me/966500000000" class="text-gray-400 text-sm hover:text-purple-400 transition-colors duration-200">+966 50 000 0000</a></li>
-          <li><a href="mailto:hello@nuraenglish.sa" class="text-gray-400 text-sm hover:text-purple-400 transition-colors duration-200">hello@nuraenglish.sa</a></li>
+          <li><a href="https://wa.me/966551259835" class="text-gray-400 text-sm hover:text-purple-400 transition-colors duration-200">+966 55 125 9835</a></li>
+          <li><a href="mailto:nuraenglish@pw.live" class="text-gray-400 text-sm hover:text-purple-400 transition-colors duration-200">nuraenglish@pw.live</a></li>
         </ul>
         <!-- Social icons -->
         <div class="flex gap-3 mt-5">
-          <a href="#" aria-label="Instagram" class="w-9 h-9 rounded-lg flex items-center justify-center transition-colors duration-200" style="background:rgba(255,255,255,0.06);" onmouseover="this.style.background='rgba(130,64,228,0.3)';" onmouseout="this.style.background='rgba(255,255,255,0.06)';">
+          <a href="https://www.instagram.com/nuraenglishofficial/" target="_blank" rel="noopener" aria-label="Instagram" class="w-9 h-9 rounded-lg flex items-center justify-center transition-colors duration-200" style="background:rgba(255,255,255,0.06);" onmouseover="this.style.background='rgba(130,64,228,0.3)';" onmouseout="this.style.background='rgba(255,255,255,0.06)';">
             <svg class="w-4 h-4 text-gray-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
           </a>
-          <a href="#" aria-label="X" class="w-9 h-9 rounded-lg flex items-center justify-center transition-colors duration-200" style="background:rgba(255,255,255,0.06);" onmouseover="this.style.background='rgba(130,64,228,0.3)';" onmouseout="this.style.background='rgba(255,255,255,0.06)';">
-            <svg class="w-4 h-4 text-gray-400" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          <a href="https://www.tiktok.com/@nura_english_ksa" target="_blank" rel="noopener" aria-label="TikTok" class="w-9 h-9 rounded-lg flex items-center justify-center transition-colors duration-200" style="background:rgba(255,255,255,0.06);" onmouseover="this.style.background='rgba(130,64,228,0.3)';" onmouseout="this.style.background='rgba(255,255,255,0.06)';">
+            <svg class="w-4 h-4 text-gray-400" fill="currentColor" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.26 8.26 0 004.84 1.55V6.79a4.85 4.85 0 01-1.07-.1z"/></svg>
           </a>
-          <a href="#" aria-label="Snapchat" class="w-9 h-9 rounded-lg flex items-center justify-center transition-colors duration-200" style="background:rgba(255,255,255,0.06);" onmouseover="this.style.background='rgba(130,64,228,0.3)';" onmouseout="this.style.background='rgba(255,255,255,0.06)';">
+          <a href="https://www.snapchat.com" target="_blank" rel="noopener" aria-label="Snapchat" class="w-9 h-9 rounded-lg flex items-center justify-center transition-colors duration-200" style="background:rgba(255,255,255,0.06);" onmouseover="this.style.background='rgba(130,64,228,0.3)';" onmouseout="this.style.background='rgba(255,255,255,0.06)';">
             <svg class="w-4 h-4 text-gray-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C8.74 0 6 2.74 6 6.11c0 .75.07 1.5.22 2.22L4.5 9c-.28.06-.5.28-.5.56s.22.5.5.56l1.5.61c.06.28.17.56.22.83-.22.11-.44.22-.61.39-.33.33-.33.83 0 1.11.22.22.56.28.83.17.17-.06.33-.11.5-.17.22.5.39.94.56 1.39-.28.17-.5.39-.5.67 0 .44.39.78.83.78h.11c.22 0 .44-.06.61-.17.56.5 1.22.83 2 1 .33.06.67.28.67.61v.17c0 .33-.28.61-.61.61h-1.67c-.22 0-.39.17-.39.39s.17.39.39.39H17c.22 0 .39-.17.39-.39s-.17-.39-.39-.39h-1.67c-.33 0-.61-.28-.61-.61v-.17c0-.33.33-.56.67-.61.78-.17 1.44-.5 2-1 .17.11.39.17.61.17h.11c.44 0 .83-.33.83-.78 0-.28-.22-.5-.5-.67.17-.44.33-.89.56-1.39.17.06.33.11.5.17.28.11.61.06.83-.17.33-.33.33-.83 0-1.11-.17-.17-.39-.28-.61-.39.06-.28.17-.56.22-.83l1.5-.61c.28-.06.5-.28.5-.56s-.22-.5-.5-.56l-1.72-.67c.15-.72.22-1.47.22-2.22C18 2.74 15.26 0 12 0z"/></svg>
           </a>
         </div>
@@ -886,6 +926,15 @@ const translations = {
     'nav-stories': 'Stories',
     'nav-location': 'Location',
     'nav-enroll': 'Enroll Now',
+    'nav-test': 'Free English Test',
+    'test-tag': '100% Free',
+    'test-h2': 'Test your <span style="color:#8240e4;">English level.</span>',
+    'test-p': "Not sure where to start? Take our free 5-minute English test and we'll tell you exactly which program fits you best.",
+    'test-btn': 'Start Free Test',
+    'test-note': 'Takes 5 minutes · No signup required · Instant result',
+    'test-chip1': '5 minutes',
+    'test-chip2': 'Instant result',
+    'test-chip3': 'No signup needed',
     'hero-tag': 'Olaya, Riyadh · English Centre',
     'hero-h1': 'Speak English.<br><span style="color:#8240e4;">Open Doors.</span>',
     'hero-p': 'An English learning centre built for modern Saudi professionals. Build real fluency in a warm, supportive environment in the heart of Riyadh.',
@@ -959,11 +1008,11 @@ const translations = {
     'loc-h2': 'In the heart of <span style="color:#8240e4;">Olaya.</span>',
     'loc-p': "Our centre is conveniently located in Olaya, one of Riyadh's most accessible districts. Easy parking and close to public transport.",
     'loc-addr-label': 'Address',
-    'loc-addr': 'Olaya District, Riyadh<br>Kingdom of Saudi Arabia',
+    'loc-addr': "Almazro's Tower, Street 14<br>6549 Wadi Al Shouara, Al Olaya, 5th Floor<br>Riyadh 12211, Saudi Arabia",
     'loc-hours-label': 'Class Hours',
-    'loc-hours': 'Morning: 9:00 AM – 12:00 PM<br>Evening: 5:00 PM – 8:00 PM<br>Saturday classes available',
+    'loc-hours': 'Morning: 10:00 AM – 12:00 PM<br>Evening: 4:00 PM – 9:00 PM',
     'loc-contact-label': 'Contact',
-    'loc-contact': 'WhatsApp: +966 50 000 0000<br>Email: hello@nuraenglish.sa',
+    'loc-contact': 'WhatsApp: +966 55 125 9835<br>Email: nuraenglish@pw.live',
     'loc-map-city': 'Olaya, Riyadh',
     'loc-map-sub': 'Exact address shared upon enrollment',
     'loc-directions': 'Get Directions',
@@ -982,6 +1031,15 @@ const translations = {
     'nav-stories': 'قصص الطلاب',
     'nav-location': 'الموقع',
     'nav-enroll': 'سجّل الآن',
+    'nav-test': 'اختبار إنجليزي مجاني',
+    'test-tag': '100% مجاني',
+    'test-h2': 'اختبر مستواك <span style="color:#8240e4;">في الإنجليزية.</span>',
+    'test-p': 'لا تعرف من أين تبدأ؟ خذ اختبارنا الإنجليزي المجاني لمدة 5 دقائق وسنخبرك بالضبط أي برنامج يناسبك.',
+    'test-btn': 'ابدأ الاختبار المجاني',
+    'test-note': 'يستغرق 5 دقائق · لا يلزم التسجيل · نتيجة فورية',
+    'test-chip1': '5 دقائق',
+    'test-chip2': 'نتيجة فورية',
+    'test-chip3': 'لا يلزم تسجيل',
     'hero-tag': 'العليا، الرياض · مركز اللغة الإنجليزية',
     'hero-h1': 'تحدّث الإنجليزية.<br><span style="color:#8240e4;">افتح الأبواب.</span>',
     'hero-p': 'مركز متخصص لتعلم اللغة الإنجليزية للمحترفين السعوديين. طوّر طلاقتك في بيئة دافئة وداعمة في قلب الرياض.',
@@ -1055,11 +1113,11 @@ const translations = {
     'loc-h2': 'في قلب <span style="color:#8240e4;">العليا.</span>',
     'loc-p': 'يقع مركزنا في العليا، أحد أحياء الرياض الأكثر سهولة في الوصول. مواقف سيارات سهلة وقريب من المواصلات العامة.',
     'loc-addr-label': 'العنوان',
-    'loc-addr': 'حي العليا، الرياض<br>المملكة العربية السعودية',
+    'loc-addr': 'برج المزرو، شارع 14<br>6549 وادي الشوارع، العليا، الطابق الخامس<br>الرياض 12211، المملكة العربية السعودية',
     'loc-hours-label': 'مواعيد الفصول',
-    'loc-hours': 'صباحاً: 9:00 – 12:00<br>مساءً: 5:00 – 8:00<br>فصول السبت متاحة',
+    'loc-hours': 'صباحاً: 10:00 – 12:00<br>مساءً: 4:00 – 9:00',
     'loc-contact-label': 'التواصل',
-    'loc-contact': 'واتساب: +966 50 000 0000<br>البريد: hello@nuraenglish.sa',
+    'loc-contact': 'واتساب: +966 55 125 9835<br>البريد: nuraenglish@pw.live',
     'loc-map-city': 'العليا، الرياض',
     'loc-map-sub': 'العنوان الدقيق يُشارك عند التسجيل',
     'loc-directions': 'احصل على الاتجاهات',
